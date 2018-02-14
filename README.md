@@ -1,2 +1,4 @@
 # UIUCBeeCampusWebsite
-Bee Campus Website 
+Bee Campus Website
+
+Website still in development, hold on tight. 
