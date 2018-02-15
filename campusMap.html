@@ -1,9 +1,29 @@
 <html>
 
+<head>
+
+  <title> Map UIUC </title>
+
+</head>
+
 <body>
 
-  <h1> Under construction.... </h1>
+  <h1> Map Of UIUC </h1>
   <a href="mainPage.html">Home</a>
+
+
+  <div id="map" style="width:500px;height:500px;align:center"> </div>
+  <script>
+  function myMap() {
+      var mapOptions = {
+          center: new google.maps.LatLng(40.107238, -88.227350),
+          zoom: 16,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+      }
+  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+  }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiBdidUA66KZwl0tcQBJiVAqG8_j-J2K8&callback=myMap"> </script>
 
   <p></p>
 
