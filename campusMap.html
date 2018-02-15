@@ -12,15 +12,20 @@
   <a href="mainPage.html">Home</a>
 
 
-  <div id="map" style="width:500px;height:500px;align:center"> </div>
+  <div id="map" style="width:500px;height:500px;"> </div>
   <script>
   function myMap() {
+      var trialMarker = {lat: 40.104445, lng: -88.219573}
       var mapOptions = {
           center: new google.maps.LatLng(40.107238, -88.227350),
-          zoom: 16,
+          zoom: 14,
           mapTypeId: google.maps.MapTypeId.ROADMAP
       }
   var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+  var marker = new google.maps.Marker({
+    position : trialMarker,
+    map: map
+  });
   }
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiBdidUA66KZwl0tcQBJiVAqG8_j-J2K8&callback=myMap"> </script>
