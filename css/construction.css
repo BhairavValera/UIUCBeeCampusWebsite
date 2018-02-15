@@ -1,0 +1,23 @@
+h1 {
+  font-size: 90px;
+}
+
+header {
+  margin-left: 18px;
+  margin-right: 18px;
+  border-bottom: 5px;
+  /*margin-bottom: 15px*/
+  /*background-color: gold;*/
+}
+
+section {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+nav {
+  margin-left: 18px;
+  margin-right: 18px;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
