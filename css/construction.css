@@ -4,10 +4,7 @@ h1 {
 }
 
 header {
-  /*margin-left: 18px;
-  margin-right: 18px;
-  border-bottom: 5px;
-  /*margin-bottom: 15px*/
+  margin-bottom: 5px;
   background-color: gold;
 }
 
@@ -17,12 +14,45 @@ section {
 }
 
 nav {
+  float: left;
   margin-left: 18px;
   margin-right: 18px;
+  font-size: 20px;
+  margin-bottom: 2px;
+
+}
+
+h3 {
+  float: left;
+  text-align: left;
+  margin-left: 18px;
   font-size: 18px;
-  margin-bottom: 18px;
+}
+
+h4{
+  float: left;
+  text-align: left;
+  margin-left: 18px;
+}
+
+p {
+  float : left;
+  text-align: left;
+  margin-left: 18px;
+}
+
+ul {
+  float :left;
+  text-align: left;
+}
+
+.left_list {
+  text-align: left;
 }
 
 aside {
+  float: right;
   align-items: right;
+  align-content: right;
+  align-self: right;
 }
