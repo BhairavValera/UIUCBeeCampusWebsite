@@ -4,8 +4,8 @@ h1 {
 }
 
 header {
-  margin-bottom: 5px;
-  background-color: gold;
+  background-color: gold;/*
+  border-style: dashed;*/
 }
 
 section {
@@ -36,13 +36,13 @@ h4{
 }
 
 p {
-  float : left;
+  float: left;
   text-align: left;
   margin-left: 18px;
 }
 
 ul {
-  float :left;
+  float: left;
   text-align: left;
 }
 
@@ -50,8 +50,18 @@ ul {
   text-align: left;
 }
 
+.maps_left{
+  width: 55%;
+}
+
+.maps_center {
+
+}
+
 aside {
   float: right;
+  width: 40%;
+  height: 500px;
   align-items: right;
   align-content: right;
   align-self: right;
