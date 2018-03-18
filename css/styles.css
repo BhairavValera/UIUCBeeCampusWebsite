@@ -68,3 +68,12 @@ nav ul > li > a::before {
 nav ul > li > a:hover::before {
   width: 100%;
 }
+
+aside {
+  float: right;
+  width: 40%;
+  height: 500px;
+  align-items: right;
+  align-content: right;
+  align-self: right;
+}
