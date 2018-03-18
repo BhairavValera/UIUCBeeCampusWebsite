@@ -22,7 +22,6 @@ header::after {
 
 .logo {
   float: left;
-  padding: 7px 0;
   cursor: pointer;
 }
 
@@ -40,6 +39,7 @@ nav li {
   display: inline-block;
   margin-left: 79px;
   padding-top: 19px;
+  padding-bottom: 19px;
   position: relative;
 }
 
@@ -76,4 +76,37 @@ aside {
   align-items: right;
   align-content: right;
   align-self: right;
+}
+
+h3 {
+  text-align: left;
+  margin-left: 18px;
+  font-size: 18px;
+}
+
+h4{
+  text-align: left;
+  margin-left: 18px;
+}
+
+p {
+  text-align: left;
+  margin-left: 18px;
+}
+
+h1 {
+  margin-left: 18px;
+  font-size: 90px;
+}
+
+.left_list {
+  text-align: left;
+}
+
+.maps_left{
+  width: 55%;
+}
+
+.maps_center {
+
 }
