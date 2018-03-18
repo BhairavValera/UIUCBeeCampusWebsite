@@ -1,17 +1,17 @@
 body {
   margin: 0;
-  background: #222;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 10;
+  background: #0;
+  font-family: 'Lato', sans-serif;
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
 header {
   background: #002547;
+  font-family: 'Lato', sans-serif;
 }
 
 header::after {
@@ -22,7 +22,7 @@ header::after {
 
 .logo {
   float: left;
-  padding: 10px 0;
+  padding: 7px 0;
   cursor: pointer;
 }
 
@@ -38,16 +38,15 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 70px;
-  padding-top: 25px;
-
+  margin-left: 79px;
+  padding-top: 19px;
   position: relative;
 }
 
 nav ul > li > a {
-  color: #c64800;
+  color: #ff5c00;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 16.2px;
 }
 
 nav ul > li > a:hover {
@@ -59,11 +58,11 @@ nav ul > li > a::before {
   display: block;
   height: 5px;
   width: 100%;
-  background-color: #c64800;
+  background-color: #ff5c00;
   position: absolute;
   top: 0;
   width: 0;
-  transition: all ease-in-out 150ms;
+  transition: all ease-in-out 170ms;
 }
 
 nav ul > li > a:hover::before {

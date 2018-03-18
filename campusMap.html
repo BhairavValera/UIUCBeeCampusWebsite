@@ -1,60 +1,69 @@
 <html>
 
-<head>
-  <title> Map UIUC </title>
-  <link rel="stylesheet" type="text/css" href="css/construction.css">
-</head>
+  <head>
+    <title>Campus Map</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+  </head>
 
-<header style="height=100">
-  <h1> Map Of UIUC <a href="http://illinois.edu/"><img src="images/ui_logo.png" alt="ui logo" height="100" align="Right" style="margin-right:18px"></a></h1>
-</header>
+  <header>
+    <div class="container">
 
-<nav class="maps_left">
-  <a href="mainPage.html">Home</a>
-  <a href="eventPage.html">Upcoming Events</a>
-  <a href="habitatPLan.html">Habitat Plan</a>
-  <a href="facts.html">Facts and tips </a>
-</nav>
+      <img src="images/illinoisLogo.png" alt="illinois logo" height="45" width="279" class="logo"
+      onclick="window.location.href='http://illinois.edu/'">
 
-<body>
+      <nav>
+        <ul>
+          <li><a href="mainPage.html">HOME</a></li>
+          <li><a href="eventPage.html">UPCOMING EVENTS</a></li>
+          <li><a href="campusMap.html">CAMPUS MAP</a></li>
+          <li><a href="habitatPLan.html">HABITAT PLAN</a></li>
+          <li><a href="facts.html">FACTS AND TIPS</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-
-  <aside>
-    <div id="map" style="width:500px;height:500px;"> </div>
-    <script>
-    function myMap() {
-        var trialMarker = {lat: 40.104445, lng: -88.219573}
-        var mapOptions = {
-            center: new google.maps.LatLng(40.107238, -88.227350),
-            zoom: 14,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-    var marker = new google.maps.Marker({
-      position : trialMarker,
-      map: map
-    });
-    }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiBdidUA66KZwl0tcQBJiVAqG8_j-J2K8&callback=myMap"> </script>
-
-  </aside>
-
-  <div>
-    <h3 class="maps_left">
-      Here is a list of sites where ______ exsist on and around campus
-    </h3>
-  </div>
-
-  <div class="left_list">
-    <ul>
-      <li>LAR</li>
-    </ul>
-  </div>
+  <body>
 
 
+    <aside>
+      <div id="map" style="width:500px;height:500px;"> </div>
+      <script>
+      function myMap() {
+          var trialMarker = {lat: 40.104445, lng: -88.219573}
+          var mapOptions = {
+              center: new google.maps.LatLng(40.107238, -88.227350),
+              zoom: 14,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+          }
+      var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+      var marker = new google.maps.Marker({
+        position : trialMarker,
+        map: map
+      });
+      }
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiBdidUA66KZwl0tcQBJiVAqG8_j-J2K8&callback=myMap"> </script>
 
-</body>
+    </aside>
+
+    <div>
+      <h3 class="maps_left">
+        Here is a list of sites where ______ exist on and around campus
+      </h3>
+    </div>
+
+    <div class="left_list">
+      <ul>
+        <li>LAR</li>
+      </ul>
+    </div>
+
+
+
+  </body>
 
 
 </html>
