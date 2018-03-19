@@ -1,12 +1,15 @@
 body {
+  width: 100%;
   margin: 0;
   background: #0;
   font-family: 'Lato', sans-serif;
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
+  background: #002547;
+  font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -23,23 +26,38 @@ header::after {
 .logo {
   float: left;
   cursor: pointer;
+  padding-top: 5px;
+  margin-left: 5%;
+  padding-bottom: 5px;
+  margin-right: 5%;
 }
 
+.end {
+  margin-right: 5px;
+}
+
+
 nav {
-  float: right;
+  background: #002547;
+  font-family: 'Lato', sans-serif;
+  width: auto;
 }
 
 nav ul {
+  background: #002547;
+  position: fixed;
   margin: 0;
   padding: 0;
   list-style: none;
+  width: 100%;
 }
 
 nav li {
   display: inline-block;
-  margin-left: 79px;
+  margin-left: 5%;
   padding-top: 19px;
   padding-bottom: 19px;
+  margin-right: 5%;
   position: relative;
 }
 
