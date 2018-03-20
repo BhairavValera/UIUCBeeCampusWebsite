@@ -121,6 +121,7 @@ h1 {
   text-align: left;
 }
 
+/*For the maps section, text on the left*/
 .maps_left{
   width: 55%;
 }
@@ -129,15 +130,20 @@ h1 {
 
 }
 
+/* if we want asside to be on the right*/
 .right_text {
   width: 63%;
 }
 
+/* This class is used to maintain size of the image on the main page
+    reduce this height to reduce the height of the image.
+*/
 .right_main_image{
   width: 30%;
   height: 400px;
 }
 
+/* Main page font size*/
 .main_page_p {
   font-size: 20px;
 }
