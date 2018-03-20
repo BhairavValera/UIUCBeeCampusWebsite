@@ -26,9 +26,9 @@ header::after {
 .logo {
   float: left;
   cursor: pointer;
-  padding-top: 5px;
+  padding-top: 7px;
   margin-left: 5%;
-  padding-bottom: 5px;
+  padding-bottom: 4px;
   margin-right: 5%;
 }
 
@@ -56,8 +56,8 @@ nav li {
   display: inline-block;
   padding-top: 19px;
   padding-bottom: 19px;
-  margin-left: 0%;
-  margin-right: 7%;
+  margin-left: 2%;
+  margin-right: 5%;
   position: relative;
 }
 
@@ -87,6 +87,24 @@ nav ul > li > a:hover::before {
   width: 100%;
 }
 
+/*Facebook button implementation*/
+.fa {
+  color: #ff5c00;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 6px;
+}
+
+/*Facebook button implementation*/
+.fa:hover {
+  color: #b5b3b3;
+}
+
 aside {
   float: right;
   width: 40%;
@@ -96,28 +114,37 @@ aside {
   align-self: right;
 }
 
+h1 {
+  text-align: justify;
+  margin-left: 5%;
+  font-size: 40px;
+}
+
+h2 {
+  text-align: justify;
+  margin-left: 5%;
+}
+
 h3 {
-  text-align: left;
+  text-align: justify;
   margin-left: 18px;
   font-size: 18px;
 }
 
-h4{
-  text-align: left;
+h4 {
+  text-align: justify;
   margin-left: 18px;
 }
 
 p {
-  text-align: left;
-  margin-left: 18px;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 7.5%;
 }
 
-h1 {
-  margin-left: 18px;
-  font-size: 40px;
-}
 
 .left_list {
+  text-align: justify;
   text-align: left;
 }
 
