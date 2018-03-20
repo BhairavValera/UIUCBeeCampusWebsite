@@ -133,6 +133,11 @@ h1 {
   width: 63%;
 }
 
+.right_main_image{
+  width: 30%;
+  height: 400px;
+}
+
 .main_page_p {
   font-size: 20px;
 }
