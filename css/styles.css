@@ -114,7 +114,7 @@ p {
 
 h1 {
   margin-left: 18px;
-  font-size: 90px;
+  font-size: 40px;
 }
 
 .left_list {
@@ -127,4 +127,12 @@ h1 {
 
 .maps_center {
 
+}
+
+.right_text {
+  width: 63%;
+}
+
+.main_page_p {
+  font-size: 20px;
 }
