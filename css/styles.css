@@ -56,8 +56,8 @@ nav li {
   display: inline-block;
   padding-top: 19px;
   padding-bottom: 19px;
-  margin-left: 2%;
-  margin-right: 5%;
+  margin-left: 3%;
+  margin-right: 5.6%;
   position: relative;
 }
 
@@ -74,7 +74,7 @@ nav ul > li > a:hover {
 nav ul > li > a::before {
   content: '';
   display: block;
-  height: 5px;
+  height: 3px;
   width: 100%;
   background-color: #ff5c00;
   position: absolute;
@@ -85,24 +85,6 @@ nav ul > li > a::before {
 
 nav ul > li > a:hover::before {
   width: 100%;
-}
-
-/*Facebook button implementation*/
-.fa {
-  color: #ff5c00;
-  /*border-top: 1px solid;
-  border-bottom: 1px solid;
-  border-left: 1px solid;
-  border-right: 1px solid;*/
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 6px;
-}
-
-/*Facebook button implementation*/
-.fa:hover {
-  color: #b5b3b3;
 }
 
 aside {
@@ -142,6 +124,31 @@ p {
   margin-right: 7.5%;
 }
 
+/*Facebook button implementation*/
+.fa::before {
+  color: #ffffff;
+  background-color: #3B5998;
+  padding-top: 7px;
+  padding-bottom: 4px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 25px;
+}
+
+.social-container {
+  padding:0px;
+  margin:0px;
+  position: fixed;
+  right: -9%;
+  top: 77%;
+  width: 210px;
+  z-index: 1100;
+}
+
+.social li {
+  list-style: none;
+  background-color: #ffffff;
+}
 
 .left_list {
   text-align: justify;
@@ -149,7 +156,7 @@ p {
 }
 
 /*For the maps section, text on the left*/
-.maps_left{
+.maps_left {
   width: 55%;
 }
 
