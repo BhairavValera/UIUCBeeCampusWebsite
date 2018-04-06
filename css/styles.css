@@ -292,6 +292,26 @@ h5 {
   font-weight: lighter;
 }
 
+h6 {
+  -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 1.5s; /* Firefox < 16 */
+    -ms-animation: fadein 1.5s; /* Internet Explorer */
+     -o-animation: fadein 1.5s; /* Opera < 12.1 */
+        animation: fadein 1.5s;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 30%;
+}
+
+h6 > factsBrief {
+  font-size: 17px;
+}
+
+h6 > listTips {
+  font-weight: lighter;
+  font-size: 17px;
+}
+
 /*Fading text animation cuz it looks cool*/
 @keyframes fadein {
     from { opacity: 0; }
@@ -334,9 +354,7 @@ h5 {
 }
 
 .social-container {
-  padding:0px;
-  margin:0px;
-  position: fixed;
+  position: relative;
   right: -9%;
   top: 77%;
   width: 210px;
