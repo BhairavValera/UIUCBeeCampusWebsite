@@ -16,7 +16,6 @@ body {
 
 header {
   background: #002547;
-  font-family: 'Lato', sans-serif;
 }
 
 header::after {
@@ -113,8 +112,8 @@ nav ul > li > a:hover::before {
         animation: fadein 1s;
   display: block;
   margin: 0 auto;
-  left: 32%;
-  bottom: 70px;
+  left: 34.7%;
+  bottom: 15%;
   padding-top: 5.5%;
   position: absolute;
   filter: brightness(102%);
@@ -220,6 +219,76 @@ h4 > factsTitle {
 }
 
 h4 > facts {
+  font-weight: lighter;
+}
+
+.bannerOther {
+  font-family: "Josefin Slab";
+  position: relative;
+}
+
+/*Upcoming Events text overlay*/
+.overlayText1 {
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+     -o-animation: fadein 3s; /* Opera < 12.1 */
+        animation: fadein 3s;
+  display: block;
+  font-size: 510%;
+  position: absolute;
+  bottom: 12%;
+  margin-left: 25.1%;
+  color: white;
+}
+
+/*Facts and Tips text overlay*/
+.overlayText2 {
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+     -o-animation: fadein 3s; /* Opera < 12.1 */
+        animation: fadein 3s;
+  display: block;
+  font-size: 510%;
+  position: absolute;
+  bottom: 12%;
+  margin-left: 28.3%;
+  color: white;
+}
+
+/*Habitat Plan text overlay*/
+.overlayText3 {
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+     -o-animation: fadein 3s; /* Opera < 12.1 */
+        animation: fadein 3s;
+  display: block;
+  font-size: 510%;
+  position: absolute;
+  bottom: 12%;
+  margin-left: 30.2%;
+  color: white;
+}
+
+/*Campus Map text overlay*/
+.overlayText4 {
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+     -o-animation: fadein 3s; /* Opera < 12.1 */
+        animation: fadein 3s;
+  display: block;
+  font-size: 510%;
+  position: absolute;
+  bottom: 12%;
+  margin-left: 31.4%;
+  color: white;
+}
+
+h5 {
+  color: #ffffff;
   font-weight: lighter;
 }
 
