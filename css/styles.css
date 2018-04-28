@@ -27,10 +27,9 @@ header::after {
 .logo {
   float: left;
   cursor: pointer;
-  padding-top: 7px;
-  margin-left: 5%;
-  padding-bottom: 4px;
-  margin-right: 5%;
+  padding-top: 0.5%;
+  padding-bottom: 0.4%;
+  margin-right: 35%;
 }
 
 .end {
@@ -55,17 +54,16 @@ nav ul {
 
 nav li {
   display: inline-block;
-  padding-top: 19px;
-  padding-bottom: 19px;
-  margin-left: 3%;
-  margin-right: 5.6%;
+  padding-top: 1.4%;
+  padding-left: 5%;
+  margin-right: 1%;
   position: relative;
 }
 
 nav ul > li > a {
   color: #ff5c00;
   text-decoration: none;
-  font-size: 16.2px;
+  font-size: 105%;
 }
 
 nav ul > li > a:hover {
@@ -75,7 +73,7 @@ nav ul > li > a:hover {
 nav ul > li > a::before {
   content: '';
   display: block;
-  height: 3px;
+  height: 10%;
   width: 100%;
   background-color: #ff5c00;
   position: absolute;
@@ -84,9 +82,9 @@ nav ul > li > a::before {
   transition: all ease-in-out 170ms;
 }
 
-nav ul > li > a:hover::before {
-  width: 100%;
-}
+/*nav ul > li > a:hover::before {
+  width: 70%;
+}*/
 
 .banner {
   position: relative;
@@ -238,7 +236,7 @@ h4 > facts {
   font-size: 510%;
   position: absolute;
   bottom: 12%;
-  margin-left: 25.1%;
+  margin-left: 39.1%;
   color: white;
 }
 
@@ -312,6 +310,16 @@ h6 > listTips {
   font-size: 17px;
 }
 
+.bottomNote {
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 30%;
+}
+
+.bottomNote .download {
+  text-align: center;
+}
+
 /*Fading text animation cuz it looks cool*/
 @keyframes fadein {
     from { opacity: 0; }
@@ -340,30 +348,6 @@ h6 > listTips {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
-
-/*Facebook button implementation*/
-.fa::before {
-  color: #ffffff;
-  background-color: #3B5998;
-  padding-top: 7px;
-  padding-bottom: 4px;
-  padding-left: 7px;
-  padding-right: 7px;
-  font-size: 25px;
-}
-
-.social-container {
-  position: relative;
-  right: -9%;
-  top: 77%;
-  width: 210px;
-  z-index: 1100;
-}
-
-.social li {
-  list-style: none;
-  background-color: #ffffff;
 }
 
 .left_list {
