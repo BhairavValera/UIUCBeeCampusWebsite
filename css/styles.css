@@ -136,7 +136,7 @@ h1 {
   text-align: justify;
   margin-left: 5%;
   margin-right: 30%;
-  font-size: 30px;
+  font-size: 220%;
 }
 
 /*Brief descriptor*/
@@ -148,8 +148,8 @@ h2 {
         animation: fadein 1.5s;
   text-align: justify;
   margin-left: 5%;
-  margin-right: 35%;
-  font-size: 17px;
+  margin-right: 40%;
+  font-size: 110%;
   font-weight: lighter;
 }
 
@@ -162,8 +162,8 @@ h3 {
         animation: fadein 1.5s;
   text-align: justify;
   margin-left: 5%;
-  margin-right: 35%;
-  font-size: 25px;
+  margin-right: 40%;
+  font-size: 110%;
 }
 
 /*Actual body*/
@@ -174,9 +174,9 @@ h4 {
      -o-animation: fadein 1.5s; /* Opera < 12.1 */
         animation: fadein 1.5s;
   margin-left: 5%;
-  margin-right: 35%;
+  margin-right: 40%;
   text-align: justify;
-  font-size: 17px;
+  font-size: 110%;
 }
 
 /*These subclasses should speak for themselves.*/
@@ -298,26 +298,84 @@ h6 {
         animation: fadein 1.5s;
   text-align: justify;
   margin-left: 5%;
-  margin-right: 30%;
+  margin-right: 40%;
+  margin-top: -1%;
+  width: 60%;
 }
 
 h6 > factsBrief {
-  font-size: 17px;
+  font-size: 210%;
 }
 
-h6 > listTips {
+h6 > ul {
+  font-size: 200%;
   font-weight: lighter;
-  font-size: 17px;
+  list-style-type: none;
+  font-family: "Josefin Slab";
+}
+
+h6 > ul > li > ul > li {
+  list-style-type: square;
+}
+
+h6 > ul > li:nth-child(1) {
+  padding: 1%;
+  background-color: #70c3ff;
+  border-style: outset;
+}
+
+h6 > ul > li:nth-child(2) {
+  padding: 1%;
+  background-color: #66ff70;
+  border-style: outset;
+}
+
+h6 > ul > li:nth-child(3) {
+  padding: 1%;
+  background-color: #f9e34f;
+  border-style: outset;
+}
+
+h6 > ul > li:nth-child(4) {
+  padding: 1%;
+  background-color: #ff9696;
+  border-style: outset;
+}
+
+.otherSide {
+  float: right;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  width: 25%;
+  margin-top: 3.4%;
+  font-style: italic;
+  font-family: "Josefin Slab";
+  font-size: 132%;
+}
+
+.eventsBody {
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 40%;
+  padding-top: 3%;
 }
 
 .bottomNote {
   text-align: justify;
   margin-left: 5%;
-  margin-right: 30%;
+  margin-right: 40%;
 }
 
-.bottomNote .download {
-  text-align: center;
+.googleBadge {
+  margin-left: -4%;
+  display: block;
+}
+
+footer {
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 40%;
 }
 
 /*Fading text animation cuz it looks cool*/
@@ -357,11 +415,12 @@ h6 > listTips {
 
 /*For the maps section, text on the left*/
 .maps_left {
-  width: 55%;
+  margin-left: 3%;
+  margin-right: 40%;
 }
 
-.maps_center {
-
+.maps_left > ul > li {
+  list-style: none;
 }
 
 /* if we want asside to be on the right*/
