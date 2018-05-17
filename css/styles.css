@@ -435,3 +435,7 @@ footer {
   width: 30%;
   height: 400px;
 }
+
+th {
+  text-align: left;
+}
