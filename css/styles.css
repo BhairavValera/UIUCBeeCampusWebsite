@@ -438,4 +438,17 @@ footer {
 
 th {
   text-align: left;
+  border-bottom: 0.5px solid black;
+}
+
+tr {
+  border-bottom: 0.5px solid black;
+}
+
+td {
+  border-bottom: 0.5px solid black;
+}
+
+table {
+  border: 1px solid black;
 }
