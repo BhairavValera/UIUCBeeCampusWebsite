@@ -70,6 +70,7 @@ nav ul > li > a:hover {
   color: #b5b3b3;
 }
 
+/*
 nav ul > li > a::before {
   content: '';
   display: block;
@@ -82,7 +83,7 @@ nav ul > li > a::before {
   transition: all ease-in-out 170ms;
 }
 
-/*nav ul > li > a:hover::before {
+nav ul > li > a:hover::before {
   width: 70%;
 }*/
 
@@ -415,8 +416,28 @@ footer {
 
 /*For the maps section, text on the left*/
 .maps_left {
-  margin-left: 3%;
-  margin-right: 40%;
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 44%;
+  font-size: 120%;
+}
+
+.ipmTitle {
+  margin-left: 5%;
+  font-size: 140%;
+  font-weight: bold;
+}
+
+.ipmFundamentals {
+  text-align: justify;
+  margin-left: 7%;
+  margin-right: 44%;
+  font-size: 110%;
+}
+
+.monitoring {
+  font-size: 90%;
 }
 
 .maps_left > ul > li {
