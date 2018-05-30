@@ -8,7 +8,6 @@ body {
 .container {
   position: absolute;
   width: 100%;
-  margin: 0 auto;
   background: #002547;
   font-family: 'Lato', sans-serif;
   z-index: 2;
@@ -24,18 +23,15 @@ header::after {
   clear: both;
 }
 
-.logo {
+.UIlogo {
   float: left;
   cursor: pointer;
-  padding-top: 0.5%;
-  padding-bottom: 0.4%;
-  margin-right: 35%;
+  padding-top: 0.6%;
+  padding-bottom: 0.1%;
+  margin-right: 40%;
+  height: 53px;
+  width: 33px;
 }
-
-.end {
-  margin-right: 5px;
-}
-
 
 nav {
   background: #002547;
@@ -46,8 +42,8 @@ nav {
 nav ul {
   background: #002547;
   position: fixed;
-  margin: 0;
-  padding: 0;
+  margin: 0%;
+  padding: 0%;
   list-style: none;
   width: 100%;
 }
@@ -55,67 +51,66 @@ nav ul {
 nav li {
   display: inline-block;
   padding-top: 1.4%;
-  padding-left: 5%;
-  margin-right: 1%;
+  padding-left: 5.3%;
   position: relative;
 }
 
 nav ul > li > a {
   color: #ff5c00;
   text-decoration: none;
-  font-size: 105%;
+  font-size: 100%;
 }
 
 nav ul > li > a:hover {
   color: #b5b3b3;
 }
 
-/*
-nav ul > li > a::before {
-  content: '';
-  display: block;
-  height: 10%;
+.flowers {
+  position: relative;
   width: 100%;
-  background-color: #ff5c00;
-  position: absolute;
-  top: 0;
-  width: 0;
-  transition: all ease-in-out 170ms;
+  filter: brightness(87%);
 }
 
-nav ul > li > a:hover::before {
-  width: 70%;
-}*/
+.flowers img {
+  width: 100%;
+  height: 72%;
+}
 
 .banner {
   position: relative;
-  z-index: 1;
+  width: 100%;
 }
 
-.flowers {
+.banner img {
+  width: 100%;
+  height: 72%;
+}
+
+.background {
+  filter: brightness(87%);
+}
+
+/*All Text Overlay*/
+.overlayText {
   -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
    -moz-animation: fadein 1s; /* Firefox < 16 */
     -ms-animation: fadein 1s; /* Internet Explorer */
      -o-animation: fadein 1s; /* Opera < 12.1 */
         animation: fadein 1s;
-  padding-top: 4.5%;
-  position: relative;
-  filter: brightness(70%);
-}
-
-.bee-logo {
-  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-   -moz-animation: fadein 1s; /* Firefox < 16 */
-    -ms-animation: fadein 1s; /* Internet Explorer */
-     -o-animation: fadein 1s; /* Opera < 12.1 */
-        animation: fadein 1s;
-  display: block;
-  margin: 0 auto;
-  left: 34.7%;
-  bottom: 15%;
-  padding-top: 5.5%;
   position: absolute;
-  filter: brightness(102%);
+  width: 100%;
+  margin-top: -27%;
+}
+
+/*Bee Campus Logo*/
+.overlayImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 72%;
+  width: 34%;
+  margin-top: -29.5%;
+  filter: brightness(110%);
 }
 
 aside {
@@ -137,6 +132,7 @@ h1 {
   text-align: justify;
   margin-left: 5%;
   margin-right: 30%;
+  margin-top: -6%;
   font-size: 220%;
 }
 
@@ -221,73 +217,12 @@ h4 > facts {
   font-weight: lighter;
 }
 
-.bannerOther {
-  font-family: "Josefin Slab";
-  position: relative;
-}
-
-/*Upcoming Events text overlay*/
-.overlayText1 {
-  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-   -moz-animation: fadein 3s; /* Firefox < 16 */
-    -ms-animation: fadein 3s; /* Internet Explorer */
-     -o-animation: fadein 3s; /* Opera < 12.1 */
-        animation: fadein 3s;
-  display: block;
-  font-size: 510%;
-  position: absolute;
-  bottom: 12%;
-  margin-left: 39.1%;
-  color: white;
-}
-
-/*Facts and Tips text overlay*/
-.overlayText2 {
-  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-   -moz-animation: fadein 3s; /* Firefox < 16 */
-    -ms-animation: fadein 3s; /* Internet Explorer */
-     -o-animation: fadein 3s; /* Opera < 12.1 */
-        animation: fadein 3s;
-  display: block;
-  font-size: 510%;
-  position: absolute;
-  bottom: 12%;
-  margin-left: 28.3%;
-  color: white;
-}
-
-/*Habitat Plan text overlay*/
-.overlayText3 {
-  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-   -moz-animation: fadein 3s; /* Firefox < 16 */
-    -ms-animation: fadein 3s; /* Internet Explorer */
-     -o-animation: fadein 3s; /* Opera < 12.1 */
-        animation: fadein 3s;
-  display: block;
-  font-size: 510%;
-  position: absolute;
-  bottom: 12%;
-  margin-left: 30.2%;
-  color: white;
-}
-
-/*Campus Map text overlay*/
-.overlayText4 {
-  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-   -moz-animation: fadein 3s; /* Firefox < 16 */
-    -ms-animation: fadein 3s; /* Internet Explorer */
-     -o-animation: fadein 3s; /* Opera < 12.1 */
-        animation: fadein 3s;
-  display: block;
-  font-size: 510%;
-  position: absolute;
-  bottom: 12%;
-  margin-left: 31.4%;
-  color: white;
-}
-
 h5 {
+  text-align: center;
   color: #ffffff;
+  font-size: 510%;
+  z-index: 100;
+  font-family: "Josefin Slab";
   font-weight: lighter;
 }
 
@@ -359,7 +294,8 @@ h6 > ul > li:nth-child(4) {
   text-align: justify;
   margin-left: 5%;
   margin-right: 40%;
-  padding-top: 3%;
+  margin-top: 3.8%;
+  font-size: 200%;
 }
 
 .bottomNote {
@@ -421,6 +357,7 @@ footer {
   margin-left: 5%;
   margin-right: 44%;
   font-size: 120%;
+  margin-top: 0%;
 }
 
 .ipmTitle {
@@ -444,19 +381,19 @@ footer {
   list-style: none;
 }
 
-/* if we want asside to be on the right*/
+/* if we want asside to be on the right
 .right_text {
   width: 63%;
 }
 
 /* This class is used to maintain size of the image on the main page
     reduce this height to reduce the height of the image.
-*/
+
 .right_main_image{
   width: 30%;
   height: 400px;
 }
-
+/*
 th {
   text-align: left;
   border-bottom: 0.5px solid black;
@@ -473,3 +410,4 @@ td {
 table {
   border: 1px solid black;
 }
+*/
